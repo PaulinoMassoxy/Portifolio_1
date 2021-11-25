@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+header{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: url('../images/designer-working-on-laptop.jpg') no-repeat 50% / clamp(15rem, 22vw, 5rem);
+    background-size: cover;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+   opacity: 80%; 
+   height: 400px;
+    z-index: 2;
+    background-color: rgba(146, 120, 165, 0.7);
+  }
+.menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8rem;
+    margin: 0 0.8rem;
+}
+
+.menu ul{
+    display: inline-flex;
+    list-style-type: none;
+    margin-right: 6rem;
+    z-index: 999;
+    
+}
+
+.menu li{
+    padding: 0.4rem;
+    color: #fff;
+}
+
+.menu li a{
+    
+    color: #fff;
+}
+
+.menu li a:hover{
+    border-bottom: 1px solid rgb(241, 8, 8);
+    color: tomato;
+}
+
+.menu h1{
+    font-size: medium;
+    margin-left: 6rem;
+    color: #fff;
+    z-index: 999;
+}
+
+.description{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.description h3{
+    font-size: 1.6rem;
+    color: white;
+    margin-bottom: 0.4rem;
+    z-index: 999;
+    text-align: center;
+}
+
+.description p{
+    color: rgb(218, 216, 216);
+    font-size: 0.8rem;
+    margin: 0.4rem 0;
+    z-index: 999;
+    text-align: center;
+}
+
+.description button{
+    width: 120px;
+    height: 30px;
+    color: #fff;
+    background: rgb(133, 7, 158);
+    border: none;
+    margin: 0.4rem 0 4rem 0;
+    cursor: pointer;
+    z-index: 999;
+}
+
+
+.after-header{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(202, 202, 200);
+}
+
+.after-header h4{
+   margin: 1.6rem 0 0.4rem 0;
+}
+
+.desc-skills{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0.8rem 0.8rem 1.2rem 0.8rem ;
+}
+
+.skills h6{
+    padding: 0.4rem;
+}
+
+.skills img{
+    width: 24px;
+}
+
+.skills p{
+    font-size: 0.8rem;
+}
+
+.last-project{
+    width: 100%;
+}
+
+.my-last{
+    width: 100%;
+    
+}
+
+.my-last h4{
+    margin: .8rem 0 .8rem 9.5rem;
+    padding: 0.4rem;
+}
+
+.proj{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont-proj{
+    width: 300px;
+    height: 250px;
+    border: rgb(126, 124, 124) solid 0.3px;
+    margin: 1rem;
+    margin-bottom: 40px;
+}
+
+.bar-back{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../images/grupo-de-jovens-empresarios-trabalhando-no-escritorio_158595-5210.jpg') no-repeat 50% / clamp(15rem, 22vw, 5rem);
+    background-size: cover;
+}
+
+.overlayi{
+    position: absolute;
+    width: 100%;
+   opacity: 80%; 
+    height: 80px;
+    z-index: 2;
+    background-color: rgba(146, 120, 165, 0.7);
+  }
+
+.bar-back h4{
+    color: white;
+}
+.green{
+    width: 100%;
+    height: 180px;
+    background: chartreuse;
+}
+
+.image{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img{
+    width: 40px;
+}
+
+.image img.circ{
+    margin-top: 0.8rem;
+}
+
+.image img.arrow{
+    margin-left: 4.8rem;
+}
+
+.image img.bar{
+    width: 60px;
+}
+
+.bar{
+    width: 120px;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 0.8rem
+}
+
+.txt-br{
+    margin: 0.8rem 3.4rem;
+}
+
+.txt-br h4{
+    color: #fff;
+}
+.violet{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgb(206, 43, 228);
+}
+
+.card h3{
+    color: rgb(236, 227, 93);
+}
+
+.product{
+    width: 100px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+}
+
+.product img{
+    width: 100%;
+    height: 70px;
+}
+
+.violet-bar{
+    width: 80px;
+    height: 15px;
+    margin-top: 40px;
+    background-color: rgb(206, 43, 228);
+}
+
+.violet-light{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgb(228, 43, 166);
+}
+
+.producti{
+    width: 140px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+}
+
+.bar-violeta{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.violeta-bar{
+    width: 80%;
+    height: 6px;
+    background-color: rgb(222, 221, 223);
+    margin: 0.4rem 0;
+    border-radius: 0.8rem
+}
+
+.violet-bar-comp1{
+    width: 90%;
+    height: 6px;
+    background: rgb(206, 43, 228);
+}
+
+.violet-bar-comp2{
+    width: 70%;
+    height: 6px;
+    background: rgb(206, 43, 228);
+}
+
+.violet-bar-comp3{
+    width: 80%;
+    height: 6px;
+    background: rgb(206, 43, 228);
+}
+
+.violet-bar-comp4{
+    width: 40%;
+    height: 6px;
+    background: rgb(206, 43, 228);
+}
+.cardi h3{
+    color: rgb(236, 227, 93);
+}
+
+.white{
+    text-align: center;
+    margin-top: 0.8rem;
+
+}
+
+.white h4{
+   margin: 0.4rem;
+   font-weight: 700;
+    
+}
+
+.about-what{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0.8rem;
+}
+
+.about{
+    width: 500px;
+}
+
+.about h6{
+    font-size: 1.2rem;
+    margin: 0.8rem;
+}
+
+.about ul{
+    display: inline-flex;
+    list-style-type: none; 
+    margin: 0.8rem;  
+}
+
+.about li{
+    padding: 0.4rem;
+}
+
+.about li a img{
+    width: 24px;
+}
+
+
+.whats{
+    margin-top: -50px;
+}
+
+.whats h6{
+    font-size: 1rem;
+    margin: 0.8rem 0 0.8rem 0;
+}
+
+.new{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.4rem 0;
+}
+
+.new img{
+    width: 60px;
+    height: 70px;
+    border: rgb(97, 94, 94) solid 1px;
+    
+}
+
+
+.text p{
+    margin: 0.4rem 0.8rem;
+    color:tomato
+}
+
+.text p.black{
+    color: rgb(39, 38, 38);
+    font-weight: bold;
+}
+
+.text p span{
+    color: rgb(39, 38, 38);
+}
+
+
+
+
+
+
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    background: rgb(212, 186, 241);
+}
+
+footer span.code{
+    color: red;
+}
+
+@media (max-width:845px){
+    .description h3{
+        font-size: 1.5rem;
+    }
+    .description p{
+        font-size: 0.6rem;
+    }
+}
